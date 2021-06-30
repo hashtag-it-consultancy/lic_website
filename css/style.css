@@ -9508,6 +9508,8 @@ h6,
   right: 30px;
   bottom: 30px;
   z-index: 99;
+  border-radius:25px;
+  box-shadow: 2px 2px 3px #999;
 }
 
 @media (min-width: 992px) {
@@ -9695,4 +9697,30 @@ h6,
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+
+
+/* Button Contacts Floating */
+.mfloat{
+	position:fixed;
+	width:48px;
+	height:50px;
+  z-index: 99;
+	bottom:100px;
+	right:29px;
+	border-radius:25px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+
+  /* position: fixed;
+  display: none;
+  right: 30px;
+  bottom: 30px;
+  z-index: 99; */
+  
+}
+
+.mmy-float{
+	margin-top:19px;
 }
